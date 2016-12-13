@@ -10,6 +10,9 @@
 <table class="table">
     <tr>
         <th>
+            @Html.DisplayNameFor(model => model.Logo)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.Division.Name)
         </th>
         <th>
@@ -30,13 +33,14 @@
         <th>
             @Html.DisplayNameFor(model => model.Points)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Logo)
-        </th>
+        
     </tr>
 
 @foreach (var item in Model) {
     <tr>
+        <td>
+            <img src="@Url.Content("~/Content/images/" + item.Logo)" alt="Team logos" width="40" height="40"/>
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.Division.Name)
         </td>
@@ -57,9 +61,6 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Points)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Logo)
         </td>
     </tr>
 }
