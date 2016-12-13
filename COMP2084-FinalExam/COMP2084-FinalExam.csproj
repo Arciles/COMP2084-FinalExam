@@ -202,6 +202,7 @@
     <Compile Include="Controllers\DivisionsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TeamsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -217,6 +218,36 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\avalanche.gif" />
+    <Content Include="Content\images\blackhawks.gif" />
+    <Content Include="Content\images\blue-jackets.gif" />
+    <Content Include="Content\images\blues.gif" />
+    <Content Include="Content\images\bruins.gif" />
+    <Content Include="Content\images\canadiens.gif" />
+    <Content Include="Content\images\canucks.gif" />
+    <Content Include="Content\images\capitals.gif" />
+    <Content Include="Content\images\coyotes.gif" />
+    <Content Include="Content\images\devils.gif" />
+    <Content Include="Content\images\ducks.gif" />
+    <Content Include="Content\images\flames.gif" />
+    <Content Include="Content\images\flyers.gif" />
+    <Content Include="Content\images\hurricanes.gif" />
+    <Content Include="Content\images\islanders.gif" />
+    <Content Include="Content\images\jets.gif" />
+    <Content Include="Content\images\kings.gif" />
+    <Content Include="Content\images\lightning.gif" />
+    <Content Include="Content\images\maple-leafs.gif" />
+    <Content Include="Content\images\oilers.gif" />
+    <Content Include="Content\images\panthers.gif" />
+    <Content Include="Content\images\penguins.gif" />
+    <Content Include="Content\images\predators.gif" />
+    <Content Include="Content\images\rangers.gif" />
+    <Content Include="Content\images\red-wings.gif" />
+    <Content Include="Content\images\sabres.gif" />
+    <Content Include="Content\images\senators.gif" />
+    <Content Include="Content\images\sharks.gif" />
+    <Content Include="Content\images\stars.gif" />
+    <Content Include="Content\images\wild.gif" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -278,6 +309,11 @@
     <Content Include="Views\Divisions\Details.cshtml" />
     <Content Include="Views\Divisions\Edit.cshtml" />
     <Content Include="Views\Divisions\Index.cshtml" />
+    <Content Include="Views\Teams\Create.cshtml" />
+    <Content Include="Views\Teams\Delete.cshtml" />
+    <Content Include="Views\Teams\Details.cshtml" />
+    <Content Include="Views\Teams\Edit.cshtml" />
+    <Content Include="Views\Teams\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
